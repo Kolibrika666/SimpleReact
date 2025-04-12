@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
   return (
-    <Navbar className="bg-body-tertiary">
+    <Navbar bg='primary gradient'>
       <Container>
         <Navbar.Brand href="#home">Заголовок</Navbar.Brand>
         <Navbar.Toggle />

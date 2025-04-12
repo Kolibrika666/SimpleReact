@@ -2,7 +2,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function TextBlock() {
   return (
-    <Accordion defaultActiveKey="0">
+    <Accordion defaultActiveKey="0" className='m-3'>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Абзац текста</Accordion.Header>
         <Accordion.Body>

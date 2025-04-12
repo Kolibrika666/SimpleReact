@@ -4,10 +4,10 @@ import Col from 'react-bootstrap/Col';
 
 function ListItem(props) {
   return (
-      <Row className="justify-content-md-center">
-        <Col md="auto">{props.num}</Col>
-        <Col md="auto">элемент</Col>
-        <Col md="auto">списка</Col>
+      <Row className="justify-content-md-center bg-primary-subtle gap-3">
+        <Col md="auto bg-white">{props.num}</Col>
+        <Col md="auto bg-white">элемент</Col>
+        <Col md="auto bg-white">списка</Col>
       </Row>
   );
 }

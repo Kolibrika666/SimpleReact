@@ -6,7 +6,7 @@ import List from "./components/List";
 
 function App() {
   return (
-    <Container>
+    <Container className="p-3 bg-light">
       <Header/>
       <TextBlock/>
       <List/>
