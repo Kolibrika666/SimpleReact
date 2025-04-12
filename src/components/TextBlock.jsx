@@ -4,7 +4,7 @@ function TextBlock() {
   return (
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>Абзац текста</Accordion.Header>
         <Accordion.Body>
           Абзац текста Абзац текста  Абзац текста  Абзац текста 
           Абзац текста Абзац текста Абзац текста Абзац текста
